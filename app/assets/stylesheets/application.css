@@ -13,3 +13,11 @@
  *= require_tree .
  *= require_self
  */
+
+#send {
+    border: 1px solid #000;
+}
+
+#input:submit {
+    border: 1px solid #000;
+}
