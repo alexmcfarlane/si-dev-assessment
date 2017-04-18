@@ -6,10 +6,10 @@ class PagesController < ApplicationController
   end
 
   def sms
-@client = Twilio::REST::Client.new ENV['twilio_sid'], ENV['twilio_auth_token']
+@client = Twilio::REST::Client.new ENV["TWILIO_SECRET"], ENV["TWILIO_AUTH"]
 @client.account.messages.create(:body => params["msg"],
     :to => params["receiving_number"],
-    :from => ENV['from_number'])
+    :from => ENV["FROM_NUMBER"])
 
   end
 end
