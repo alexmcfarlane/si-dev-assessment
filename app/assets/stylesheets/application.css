@@ -24,7 +24,7 @@
 	margin: 0;
 }
 
-#send , #msg {
+#receiving_number , #msg {
     border: 1px solid #000;
     background-color: #f7f1e7;
     font-family: 'Montserrat', sans-serif;
