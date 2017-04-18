@@ -1,9 +1,9 @@
-<h1>Sned a SMS</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+<h1>Send a SMS</h1>
+<p>Send a custom text message to a phone number!</p>
 
 <%= form_tag("/sms/send", method: "post") do %>
 <!-- add form elements here -->
-  <%= label_tag(:msg, "Send a message") %>
+  <%= label_tag(:msg, "Send message") %>
   <%= text_field_tag(:msg) %>
   <%= label_tag(:send, "To phone number") %>
   <%= text_field_tag(:send) %>

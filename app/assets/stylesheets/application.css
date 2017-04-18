@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Crimson+Text:400i|Clicker+Script|Roboto|Scheherazade');
+
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
  * listed below.
@@ -13,11 +15,27 @@
  *= require_tree .
  *= require_self
  */
-
-#send {
-    border: 1px solid #000;
+ 
+ body {
+	font-family: 'Montserrat', sans-serif;
+	color: #300e0e;
+	background-color: #fffefc;
+	font-size:12px;
+	margin: 0;
 }
 
-#input:submit {
+#send , #msg {
     border: 1px solid #000;
+    background-color: #f7f1e7;
+    font-family: 'Montserrat', sans-serif;
+	color: #300e0e;
+	font-size:12px;
+}
+
+input[type=submit] {
+    font-family: 'Montserrat', sans-serif;
+	color: #fbf7f5;
+	font-size:12px;
+	border:none;
+    background-color: #300e0e;
 }

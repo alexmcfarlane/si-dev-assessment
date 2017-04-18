@@ -30,6 +30,9 @@ gem 'bcrypt', '~> 3.1.7'
 # Use Twilio to add text messaging capabilities to this web application
 gem 'twilio-ruby'
 
+#For environment variables
+gem 'figaro'
+
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
